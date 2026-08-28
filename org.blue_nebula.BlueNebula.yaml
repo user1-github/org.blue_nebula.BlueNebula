@@ -16,6 +16,7 @@ finish-args:
   - --persist=.blue-nebula
 modules:
   - shared-modules/SDL2/SDL2_image.json
+  - shared-modules/SDL2/SDL2_mixer.json
 
   - name: blue-nebula
     buildsystem: cmake-ninja
