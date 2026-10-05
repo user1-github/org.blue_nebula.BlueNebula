@@ -21,6 +21,8 @@ modules:
   - name: blue-nebula
     buildsystem: cmake-ninja
     builddir: true
+    make-args:
+      - -v
     config-opts:
       - -DCMAKE_BUILD_TYPE=Release
     sources:
