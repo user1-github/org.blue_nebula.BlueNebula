@@ -28,7 +28,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/user1-github/base-1.git
-        commit: 2b7a4fe40f470453d8c9e824ba44551254b8430f
+        commit: 8db01632d6cbe589dbcd1110a0e5294fd5c7c981
         x-checker-data:
           type: git
           tag-pattern: ^v([\d.]+)$
