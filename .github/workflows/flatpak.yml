@@ -1,6 +1,6 @@
 on:
   push:
-    branches: [no-hardening-test]
+    branches: [verbose-test]
   pull_request:
 name: CI
 jobs:
